@@ -257,8 +257,10 @@
   </pluginRepositories>
  <distributionManagement>
          <repository>
-         <id>nexus</id>
-         <url>http://nexus:8081/repository/maven-snapshots</url>
+             <id>nexus</id>
+             <url>http://nexus:8081/repository/maven-snapshots</url>
+             <username>admin</username>
+             <password>admin123</password> 
          </repository>
   </distributionManagement>
 </project>
